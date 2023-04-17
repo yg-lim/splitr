@@ -1,0 +1,23 @@
+extends layout
+
+block header
+  header
+    p(class="display-body") Welcome, username.
+    div(class="owed")
+      p(class="sub-heading") I am owed
+      h2 150.00
+  
+block main
+  main
+    div(class="content-header flex space-between align-center")
+      h1 My Split Lists
+      a(href="/new-list" class="button button-cta") New List
+    ul(class="split-lists")
+      a(href="/" class="card")
+        li(class="flex space-between")
+          h3 Username1
+          h3(class="owed") $200.00
+      a(href="/" class="card")
+        li(class="flex space-between")
+          h3 Username2
+          h3(class="owing") $200.00
