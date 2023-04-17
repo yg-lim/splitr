@@ -31,12 +31,12 @@ nav {
 
 header {
   max-width: 624px;
-  margin: 3rem auto;
+  margin: 2rem auto;
 }
 
 main {
   max-width: 624px;
-  margin: 3rem auto;
+  margin: 2rem auto;
 }
 
 a {
@@ -62,6 +62,29 @@ h3 {
   color: var(--dark);
 }
 
+input {
+  box-sizing: border-box;
+  height: 2.5rem;
+  width: 100%;
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.85rem;
+  padding-left: 1rem;
+  margin: 0.5rem 0 1.5rem 0;
+  border-radius: 0.25rem;
+  border: 1px solid #A4C9C5;
+  border-style: inset;
+}
+
+label {
+  font-size: 0.9rem;
+  color: var(--dark);
+}
+
+form button {
+  border: none;
+  font-family: "Roboto Mono", monospace;
+}
+
 .owed {
   color: var(--owed);
 }
@@ -75,8 +98,10 @@ h3 {
   font-size: 1.25rem;
 }
 
-.content-header {
-  margin-bottom: 2rem;
+.title {
+  max-width: 624px;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
 }
 
 .sub-heading {

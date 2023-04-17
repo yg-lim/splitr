@@ -23,6 +23,12 @@ app.get("/",
   })
 );
 
+app.get("/new-list",
+  catchError(async (req, res) => {
+    res.render("new-list");
+  })
+);
+
 app.use((err, req, res, _next) => {
   console.log(err.message);
   res.status(404).send(err.message);
